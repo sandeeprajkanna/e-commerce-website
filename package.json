@@ -1,0 +1,42 @@
+{
+  "name": "e-commerce-website",
+  "version": "1.0.0",
+  "description": "E-Commerce Webiste built using MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeeprajkanna/e-commerce-website.git"
+  },
+  "author": "Sandeep Raj Kanna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandeeprajkanna/e-commerce-website/issues"
+  },
+  "homepage": "https://github.com/sandeeprajkanna/e-commerce-website#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "braintree": "^3.12.0",
+    "concurrently": "^7.3.0",
+    "config": "^3.3.7",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-jwt": "^7.7.5",
+    "express-validator": "^6.14.2",
+    "formidable": "^2.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongodb": "^4.9.0",
+    "mongoose": "^6.5.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19",
+    "uuid": "^8.3.2",
+    "uuidv1": "^1.6.14"
+  }
+}
